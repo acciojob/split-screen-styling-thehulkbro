@@ -1,1 +1,43 @@
 /*  your css code here. If applicable */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#grid-1{
+    background-color: gray;
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows:1fr 4fr 1fr;
+    grid-template-areas: 
+    "m h h"
+    "m c s"
+    "m f f";
+}
+#sidebar{
+    grid-area: s;
+    background-color: chocolate;
+	padding: 1em;
+}
+#a{
+    grid-area: h;
+    background-color: yellowgreen;
+	padding: 1em;
+}
+#b{
+    grid-area: m;
+    background-color: #D7E8D4;
+	padding: 1em;
+}
+#c{
+    grid-area: c;
+    background-color: yellow;
+	min-height:60vh;
+	padding: 1em;
+}
+#d{
+    grid-area: f;
+    background-color: yellowgreen;
+	padding: 1em;
+}

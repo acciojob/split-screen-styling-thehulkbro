@@ -10,33 +10,33 @@ body, html {
 
 .navbar {
     background-color: #D7E8D4;
-    flex: 1;
+    flex: 1/6; /* 1/6 of the width */
 }
 
 .content {
-    flex: 5;
+    flex: 5/6; /* 5/6 of the width */
     display: flex;
     flex-direction: column;
 }
 
 header, footer {
     background-color: yellowgreen;
-    flex: 1;
+    flex: 1/5; /* 1/5 of the height */
     padding: 1em;
 }
 
 .main-content {
-    flex: 4;
+    flex: 4/5; /* 4/5 of the width */
     display: flex;
 }
 
 article {
-    flex: 3 1 0%;
+    flex: 3/4; /* 3/4 of the width */
     min-height: 60vh;
     padding: 1em;
 }
 
 aside {
-    flex: 1 1 0%;
+    flex: 1/4; /* 1/4 of the width */
     padding: 1em;
 }

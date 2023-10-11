@@ -3,8 +3,7 @@
     margin: 0px;
     padding: 0px;
 }
-#grid-1{
-    background-color: gray;
+#container{
     display: grid;
     width: 100vw;
     height: 100vh;
@@ -32,7 +31,7 @@
 }
 #c{
     grid-area: c;
-    background-color: yellow;
+    
 	min-height:60vh;
 	padding: 1em;
 }
